@@ -1,0 +1,38 @@
+#+TITLE: CIS 4339 Practice Exam 1 S2019
+#+OPTIONS: toc:nil
+#+LATEX_CLASS: article
+#+LATEX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage[letterpaper]{geometry}
+#+LATEX_HEADER: \geometry{verbose,tmargin=0.8in,bmargin=0.6in,lmargin=0.75in,rmargin=0.75in}
+#+LATEX_HEADER: \setlength{\parskip}{\medskipamount}
+#+LATEX_HEADER: \setlength{\parindent}{0pt}
+
+
+* Practice Exam Coding Portion
+** Debugging
+   - Go through the entire app. You will encounter at least one error page. Fix the problem(s) that is(are) creating error(s). 
+** Adding Features
+  1. Add a div with an embedded h1 tag that will appear at the top of every page. In the h1 tag, put "Exam 1: (Your Full Name)"
+  2. Add a field called "Description" to the Category model, making all the
+     necessary changes to allow the field to show up in the list of categories,
+     on a single category page, and of course in the form so that a user can
+     edit the category description.
+     - HINT: Do not forget about the whitelist!
+  
+  BONUS: Style the header div created in Problem 1 with CSS by giving it a background color and a black border. 
+
+* Written Portion Topics for Review
+** Ruby
+   - hashes
+   - arrays
+   - string operations
+     - example:
+        #+BEGIN_SRC ruby
+        myvar = "John"
+        mymessage = "My name is #{myvar}"
+        #+END_SRC
+** Rails
+   - Model-view-controller pattern
+   - The routes.rb file and its uses
+   - Migrations
+

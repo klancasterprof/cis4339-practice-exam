@@ -1,0 +1,34 @@
+// Place all the styles related to the dashboard controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.bold-blue {
+  font-weight: bold;
+  color: blue;
+  text-decoration: underline;
+}
+
+h1.centered {
+  text-align: center;
+}
+
+h1.fancy {
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+div#welcome {
+  text-align: center;
+  margin-left: auto;
+  margin-right:auto;
+  border: 1px solid blue;
+  width: 40%;
+  padding: 10px;
+}
+
+p#description {
+  text-align: center;
+  font-size: 14pt;
+  color: green;
+}
+

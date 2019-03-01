@@ -1,0 +1,19 @@
+<h1 class="centered fancy">Dashboard</h1>
+
+
+<div id="welcome">
+  <h2 id="welcome-message">Welcome to the Inventory System</h2>
+
+<p id="item-count">
+  You have <%= @sales_item_count %> items defined in the system.
+</p>
+
+<p>The <span id="average" class="bold-blue">average</span>
+  price of a sales item is <%= number_to_currency(@sales_item_average_price) %>.</p>
+
+</div>
+
+<p id="description">The average is the sum divided by the count.</p>
+
+
+

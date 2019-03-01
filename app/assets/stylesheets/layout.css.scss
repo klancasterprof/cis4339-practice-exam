@@ -1,0 +1,17 @@
+#header {
+
+  background-color: dodgerblue;
+  padding: 20px;
+  font-size: 16pt;
+
+  a {
+    color: white;
+    &:hover {
+      color:yellow;
+      background-color: dodgerblue;
+    }
+  }
+
+}
+
+;

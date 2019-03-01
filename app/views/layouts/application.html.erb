@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CIS 4339 Exam 1</title>
+  <%= csrf_meta_tags %>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application','data-turbolinks-track': 'reload' %>
+</head>
+<body>
+<div id="header">
+  <h1>Inventory Mangerment System</h1>
+  <%= link_to "Dashboard", root_path %>
+  <%= link_to "Sales Items",sales_items_path %>
+  <%= link_to "Categories", categories_path %>
+  <%= link_to "Admin Page", admin_path %>
+</div>
+<%= yield %>
+
+</body>
+</html>
